@@ -65,8 +65,7 @@ public class ArticleViewAdapter extends RecyclerView.Adapter<ArticleViewAdapter.
         articleViewHolder.articleTitle.setText(articles.get(position).getTitle());
 
         //calculate time passed
-        DateUtils dateUtils = new DateUtils();
-        String timePassed = dateUtils.getTimePassed(articles.get(position).getPublishedAt(), context);
+        String timePassed = DateUtils.getTimePassed(articles.get(position).getPublishedAt(), context);
         articleViewHolder.articleDate.setText(timePassed);
 
         articleViewHolder.cardView.setOnClickListener(new View.OnClickListener() {
