@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.Details">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="@string/toolbar_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/details_article_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/details_image_height"
+                android:scaleType="centerCrop"
+                android:contentDescription="TODO" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/details_bar_margin_bottom"
+                android:background="@color/details_bar_color"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/details_bar_padding_left"
+                android:paddingTop="@dimen/details_bar_padding_top"
+                android:paddingEnd="@dimen/details_bar_padding_right"
+                android:paddingBottom="@dimen/details_bar_padding_bottom">
+
+                <TextView
+                    android:id="@+id/details_article_title"
+                    style="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="0.9"
+                    android:paddingBottom="@dimen/details_bar_title_padding_bottom"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/details_bar_title_text_size"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/details_article_date"
+                        style="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/details_bar_date_color" />
+
+                    <TextView
+                        android:id="@+id/details_article_author"
+                        style="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/by"
+                        android:textColor="@color/details_bar_by_author_color" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/details_link_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/open_in_browser_padding_top"
+                    android:text="@string/open_in_browser"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/details_article_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/article_text_margin_left"
+                android:layout_marginEnd="@dimen/article_text_margin_right"
+                android:paddingBottom="@dimen/article_text_padding_bottom"
+                android:textColor="@color/article_text_color"
+                android:textSize="@dimen/article_text_size" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Čitač vijesti</string>
+    <string name="toolbar_title">Detalji</string>
+    <string name="by"> \u0020autor\u0020 </string>
+    <string name="toolbar_title_main">Čitač vijesti</string>
+    <string name="search">Pretraži</string>
+    <string name="sort_by_date">Sortiraj po datumu</string>
+    <string name="sort_by_popularity">Sortiraj po popularnosti</string>
+    <string name="open_in_browser"><u>Otvori u pregledniku</u></string>
+    <string name="article_preview_image">Slika članka</string>
+    <string name="launcher_icon_on_a_splash_screen">Slika aplikacije na početnom zaslonu</string>
+    <string name="hours">s</string>
+</resources>

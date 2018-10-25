@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin_top">2dp</dimen>
+    <dimen name="card_margin_bottom">2dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="article_info_linear_layout_margin_end">20dp</dimen>
+    <dimen name="article_title_padding_left">20dp</dimen>
+    <dimen name="article_title_padding_right">20dp</dimen>
+    <dimen name="main_screen_article_title">15sp</dimen>
+    <dimen name="main_screen_article_date">10sp</dimen>
+    <dimen name="image_width_main_screen">100dp</dimen>
+    <dimen name="image_height_main_screen">100dp</dimen>
+    <dimen name="image_main_screen_margin">5dp</dimen>
+    <dimen name="details_image_height">200dp</dimen>
+    <dimen name="details_bar_margin_bottom">16dp</dimen>
+    <dimen name="details_bar_padding_left">16dp</dimen>
+    <dimen name="details_bar_padding_top">16dp</dimen>
+    <dimen name="details_bar_padding_right">16dp</dimen>
+    <dimen name="details_bar_padding_bottom">16dp</dimen>
+    <dimen name="details_bar_title_padding_bottom">4dp</dimen>
+    <dimen name="details_bar_title_text_size">26sp</dimen>
+    <dimen name="open_in_browser_padding_top">5dp</dimen>
+    <dimen name="article_text_margin_left">20dp</dimen>
+    <dimen name="article_text_margin_right">20dp</dimen>
+    <dimen name="article_text_padding_bottom">90dp</dimen>
+    <dimen name="article_text_size">18sp</dimen>
+    <dimen name="recycler_view_margin">2dp</dimen>
+</resources>

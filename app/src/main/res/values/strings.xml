@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">News Reader</string>
+    <string name="launcher_icon_on_a_splash_screen">Launcher icon on a splash screen</string>
+    <string name="open_in_browser"><u>Open in Browser</u></string>
+    <string name="article_preview_image">Article preview image</string>
+    <string name="toolbar_title">Details</string>
+    <string name="by">\u0020 by \u0020</string>
+    <string name="toolbar_title_main">News Reader</string>
+    <string name="search">Search</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_popularity">Sort by popularity</string>
+    <string name="hours">h</string>
+</resources>

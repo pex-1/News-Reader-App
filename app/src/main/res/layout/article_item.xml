@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/article_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/card_margin_top"
+    android:layout_marginBottom="@dimen/card_margin_bottom"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="@dimen/card_corner_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/article_info_linear_layout_margin_end"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_title_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingStart="@dimen/article_title_padding_left"
+                android:paddingEnd="@dimen/article_title_padding_right"
+                android:textSize="@dimen/main_screen_article_title"
+                android:textStyle="bold"
+                tools:text="Author name" />
+
+            <TextView
+                android:id="@+id/text_view_date_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/main_screen_article_date"
+                tools:text="Article date" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/article_image_card_view"
+            android:layout_width="@dimen/image_width_main_screen"
+            android:layout_height="@dimen/image_height_main_screen"
+            android:layout_margin="@dimen/image_main_screen_margin"
+            android:contentDescription="@string/article_preview_image"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
